@@ -310,6 +310,11 @@
 		"body": "\\mathtt{${1:${TM_SELECTED_TEXT:text}}}",
 		"description": "math typewriter font"
 	},
+	"quote": {
+		"prefix": "quote",
+		"body": "``${1:${TM_SELECTED_TEXT:text}}''",
+		"description": "quoted text"
+	},
 	"alpha": {
 		"prefix": "@a",
 		"body": "\\alpha",

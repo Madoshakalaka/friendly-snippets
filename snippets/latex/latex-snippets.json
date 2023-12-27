@@ -28,15 +28,13 @@
     ],
     "description": "Chapter"
   },
-
     "Inline Math": {
         "prefix": ["mi"],
         "body": [
-            "\\($1\\)$0"
+            "\\($TM_SELECTED_TEXT$1\\)$0"
         ],
         "description": "Insert inline Math Environment."
     },
-
   "Description": {
     "prefix": "desc",
     "body": [
@@ -60,7 +58,7 @@
     "prefix": "displaymath",
     "body": [
       "\\begin{displaymath}",
-      "\t$1",
+      "\t${1:$TM_SELECTED_TEXT}",
       "\\end{displaymath}",
       "$0"
     ],
